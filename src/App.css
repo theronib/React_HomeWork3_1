@@ -1,38 +1,91 @@
-.App {
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#info-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bio {
+  width: 40%;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#info {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  margin-right: 180px;
 }
 
-.App-link {
-  color: #61dafb;
+.authormedia {
+  position: absolute;
+  margin-left: 170px;
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#monalisa {
+  width: 22%;
+  margin-left: 270px;
+}
+
+#monalisainfo {
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 995px) {
+  #authorpicture {
+    visibility: hidden;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+#pictures {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+
+}
+
+.images {
+  width: 300px;
+  margin-left: 20px;
+  border: 6px solid rgb(240, 216, 186);
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#resume {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#options {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.change {
+  padding: 10px;
+}
+
+#register {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
